@@ -1,5 +1,109 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+
+/*Body*/
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+}
+
+/*Aca no se ve el fondo gris al footer,
+y abajo puse como me pareció que se ponía la imagen
+en las dos primeras columnas
+
+footer{
+	color: #FFF;
+	background-color: #c4c4c4;
+}
+
+.col-md-6{
+	background: #ffffff url("../img/aprendizaje.jpg") no-repeat right top;
+}
+
+*/
+
+.page-header{
+	text-align: center;
+	color: #dd4814;
+}
+
+
+/*Jumbotron*/
+.jumbotron {
+	background: #ffffff url("../img/jumbotron.jpg") no-repeat right top;
+}
+
+.jumbotron .container {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #FFF;
+	width: 60%;
+	padding: 15px;
+}
+
+.navbar-default {
+	background-color: #FFF;
+	border-color: #bf3e11;
+}
+
+.navbar-default .navbar-brand {
+  color: #dd4814;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  background-color: none;
+}
+
+.navbar-default .navbar-text {
+  color: #999;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #999;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #dd4814;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #dd4814;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #97310e;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #97310e;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #bf3e11;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #dd4814;
+  color: #ffffff;
 }
