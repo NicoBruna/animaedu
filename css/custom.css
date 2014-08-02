@@ -6,6 +6,12 @@ body {
   padding-bottom: 20px;
 }
 
+footer{
+  color: #FFF;
+  background-color: #c4c4c4;
+  clear: both;
+}
+
 /*Aca no se ve el fondo gris al footer,
 y abajo puse como me pareció que se ponía la imagen
 en las dos primeras columnas
@@ -20,6 +26,7 @@ footer{
 }
 
 */
+
 
 .page-header{
 	text-align: center;
