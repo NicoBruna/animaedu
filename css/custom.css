@@ -4,19 +4,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   display: auto;
+  position: relative;
 }
 
-footer{
+/*.container footer{
   color: #FFF;
   background-color: #c4c4c4;
-}
-
-/*Aca no se ve el fondo gris al footer,
-
-footer{
-	color: #FFF;
-	background-color: #c4c4c4;
 }*/
+
 
 .col-md-6{
 	background: #ffffff url("../img/aprendizaje.png") no-repeat;
@@ -45,31 +40,45 @@ footer{
 
 /*Jumbotron*/
 .jumbotron {
+  position: relative;
   display: block;
   margin: 0 auto;
-  position: relative;
   background-color: red;
 	background: #ffffff url("../img/jumbotron.png") no-repeat;
   background-position: center;
   height: 435px;
+  width: 100%;
 }
 
 .jumbotron .container {
   position: absolute;
-  display: block;
-  top: 149px;
+  top: 35%;
   left: 30%;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.7);
+  background-position: center;
 	color: #FFF;
 	width: 40%;
-  height: 137px;
+  height: 35%;
 }
+
+.navbar-brand{
+  background: url("../img/ProjectName.png") no-repeat;
+  height: 41px;
+  width: 154px;
+  margin-top: 5px;
+}
+
 
 .jumbotron .container h1 {
-  font-size: 300%;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1%;
 }
 
+.jumbotron .container p {
+  margin-top: -2%;
+}
 
 .navbar-default {
 	background-color: #FFF;
