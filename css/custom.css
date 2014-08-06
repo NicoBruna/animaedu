@@ -19,6 +19,27 @@ footer {
 	color: #dd4814;
 }
 
+.banner {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 98%;
+  height: 270px;
+}
+
+.banner .details {
+  width: 60%;
+  color: #FFF;
+}
+
+.banner .details h2 {
+  font-size: 36px;
+}
+
+.banner .details p {
+  font-size: 14px;
+}
+
 /* Helper Classes */
 .center-content {
   text-align: center;
